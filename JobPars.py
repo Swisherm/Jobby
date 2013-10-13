@@ -9,8 +9,9 @@ This program opens the browser and searches a website and copies and parses data
 
 
 ### IMPORTS
-
+import os, sys
 import urllib, urllib2
+import  urllib3
 
 from bs4 import BeautifulSoup
 
